@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009900"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MorAppleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apples My Butt"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/MorGoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#888899"
+        android:onClick="onClick"
+        android:text="Go To Next"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <EditText
+        android:id="@+id/MorEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:background="#9008ff"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minWidth="@android:dimen/thumbnail_height"
+        android:textColor="#aabbbc"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+</android.support.constraint.ConstraintLayout>

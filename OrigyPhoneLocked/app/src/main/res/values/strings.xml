@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Origy.co.ke</string>
+    <string name="unlock">UNLOCK</string>
+    <string name="notice">pease return this phone to the company</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="name">Name</string>
+    <string name="chat">chat with Firebase</string>
+    <string name="display">firebase display</string>
+    <string name="post">whats in your mind</string>
+</resources>

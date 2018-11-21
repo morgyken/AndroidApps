@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1035108013405",
+    "firebase_url": "https://origyphonelocked.firebaseio.com",
+    "project_id": "origyphonelocked",
+    "storage_bucket": "origyphonelocked.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035108013405:android:f32fabcf3da3e51b",
+        "android_client_info": {
+          "package_name": "ke.co.origy.pauld.origyphonelocked"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035108013405-reg6591bqoq9fvh1lvmf4h2i4laigivk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ke.co.origy.pauld.origyphonelocked",
+            "certificate_hash": "ddeb5dd5668b4163ea7cd4623c9a2f3b02f89c39"
+          }
+        },
+        {
+          "client_id": "1035108013405-0hisspokp4irmuen7hk67it9g7g3kj7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAidbsCMSdM1yA3zpS3ebulqEVfZ-Hnjak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035108013405-0hisspokp4irmuen7hk67it9g7g3kj7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
