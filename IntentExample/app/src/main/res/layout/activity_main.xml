@@ -5,41 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#009900"
+
+    android:minWidth="@android:dimen/thumbnail_height"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/MorAppleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:padding="20sd"
         android:text="Apples My Butt"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.154" />
+        app:layout_constraintVertical_bias="0.154"
+        app:layout_editor_absoluteX="@android:dimen/dialog_min_width_major" />
 
     <Button
         android:id="@+id/MorGoto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"
         android:background="#888899"
         android:onClick="onClick"
+        android:padding="?attr/actionBarSize"
         android:text="Go To Next"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="362dp" />
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <EditText
         android:id="@+id/MorEditText"
         android:layout_width="wrap_content"
         android:layout_height="71dp"
+        android:layout_margin="@android:dimen/app_icon_size"
         android:background="#9008ff"
         android:ems="10"
         android:inputType="textPersonName"
         android:minWidth="@android:dimen/thumbnail_height"
+        android:padding="10dp"
         android:textColor="#aabbbc"
         tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="189dp" />

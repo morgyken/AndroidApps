@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/MorBacon"
+
+    android:id="@+id/MorBaconLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#72231F"
-    tools:context=".Apple_activity">
+    >
 
     <TextView
         android:id="@+id/MorBacon"
@@ -18,8 +17,7 @@
         android:textColor="@color/colorPrimary"
         android:textDirection="locale"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="83dp" />
+        />
 
     <Button
         android:id="@+id/button"
@@ -27,6 +25,5 @@
         android:layout_height="wrap_content"
         android:onClick="onClickBack"
         android:text="Button"
-        tools:layout_editor_absoluteX="157dp"
-        tools:layout_editor_absoluteY="302dp" />
+        />
 </android.support.constraint.ConstraintLayout>
